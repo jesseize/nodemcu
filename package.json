@@ -1,0 +1,19 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "REST API for Code Examples SPA",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js & ./mongodb/bin/mongod --dbpath ./data/db/"
+  },
+  "author": "Jesse Izeboud & Noah Falan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongodb": "^3.0.1",
+    "mongoose": "^4.13.9"
+  }
+}
